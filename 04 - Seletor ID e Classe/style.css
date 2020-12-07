@@ -1,0 +1,15 @@
+.texto-principal {
+  color: #f00;
+  text-align: center;
+}
+
+.fundo-principal {
+  background-color: #0f0;
+  padding: 20px;
+}
+
+#conteudo {
+  background-color: #00f;
+  padding: 20px;
+  color: #0f0;
+}

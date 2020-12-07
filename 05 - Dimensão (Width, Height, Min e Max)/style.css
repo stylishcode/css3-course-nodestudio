@@ -1,0 +1,17 @@
+#conteudo {
+  /* Tamanho fixo (Não se reajusta conforme o redimensionamento de tela) */
+  width: 500px;
+  height: 100px;
+
+  /* Tamanho por porcentagem (Se reajusta sempre ocupando a porcentagem desejada de tela) */
+  /* width: 80%; Ocupa 80 % da tela */
+
+  /* Definindo tamanhos máximos e minimos */
+  /* max-width: 500px; Não irá ultrapassar 500px, independente do conteúdo */
+  /* min-width: 20px; Não pode ser menor que 20px, mesmo que não haja conteúdo algum */
+
+  padding: 20px;
+
+  background-color: #0f0;
+  color: #fff;
+}

@@ -1,0 +1,44 @@
+#exemplo-padding {
+  width: 500px;
+  height: 200px;
+
+  background-color: #0f0;
+  color: #fff;
+
+  /* espaçamento interno superior */
+  /* padding-top: 10px; */
+  /* espaçamento interno direito */
+  /* padding-right: 20px; */
+  /* espaçamento interno inferior */
+  /* padding-bottom: 30px; */
+  /* espaçamento interno esquerdo */
+  /* padding-left: 40px; */
+
+  /* metapropriedade padding (sentido horário) */
+  padding: 10px 20px 30px 40px;
+
+  /* Mesma quantidade de padding para todos os lados */
+  /* padding-left: 30px; */
+}
+
+#exemplo-margin {
+  width: 500px;
+
+  background-color: #f00;
+  color: #fff;
+
+  /* espaçamento externo superior */
+  margin-top: 10px;
+  /* espaçamento externo direito */
+  margin-left: 20px;
+  /* espaçamento externo inferior */
+  margin-right: 30px;
+  /* espaçamento externo esquerdo */
+  margin-left: 40px;
+
+  /* metapropriedade margin (sentido horário) */
+  margin: 10px 20px 30px 40px;
+
+  /* Mesma quantidade de margin para todos os lados */
+  /* margin: 30px; */
+}
