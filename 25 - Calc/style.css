@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+nav {
+  width: 100vw;
+  height: 80px;
+  background-color: #00f;
+}
+
+.banner {
+  width: 100vw;
+  /* Para o nav e o banner ocupar 100% da tela, sem adicionar barra de rolagem pela adição nav + banner, faz-se a subtração da altura do banner - 80px do nav */
+  height: calc(100vh - 80px);
+  background-color: #f00;
+}

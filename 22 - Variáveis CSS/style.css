@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* O seletor :root corresponde ao elemento raiz do documento. */
+:root {
+  /* criando variaveis */
+  --bg-color: #00f;
+  --cor-do-texto: #fff;
+  --espacamento: 20px;
+  --margem: 10px;
+}
+
+#div1 {
+  background-color: var(--bg-color);
+  color: var(--cor-do-texto);
+  padding: var(--espacamento);
+}
+
+#div2 {
+  margin-top: var(--margem);
+  background-color: var(--bg-color);
+  color: var(--cor-do-texto);
+  padding: var(--espacamento);
+}
+
+#div3 {
+  margin-top: var(--margem);
+  background-color: var(--bg-color);
+  color: var(--cor-do-texto);
+  padding: var(--espacamento);
+}
