@@ -1,0 +1,36 @@
+#exemplo {
+  width: 200px;
+  height: 200px;
+
+  background-color: #f00;
+
+  /* nome da propriedade css que vai ser aplicada a transição */
+  /* all: faz com todas as propriedades tenha a mesma transição */
+  /* transition-property: width, height; */
+  /* duração da transição */
+  /* transition-duration: 2s; */
+  /* configura o ritmo da transição */
+  /*
+    Algumas timing functions:
+      ease: transição começe lenta, fique rápida, termine lenta
+      ease-in: transição começe lenta
+      ease-out: transição termine lenta
+      ease-in-out: transicão começe lenta e termine lenta
+      linear: transição mantém mesma velocidade do inicio ao fim
+  */
+  /* transition-timing-function: linear; */
+  /* tempo de espera para iniciar a transição */
+  /* transition-delay: 2s; */
+
+  /* propriedade estenogŕafica ou metapropriedade */
+  /* transition: width 2s linear 1s, height 2s linear; */
+  transition: all 2s linear;
+}
+
+/* Ao passar o mouse por cima */
+#exemplo:hover {
+  width: 350px;
+  height: 350px;
+
+  background: #0f0;
+}

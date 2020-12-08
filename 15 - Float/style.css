@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 100%;
+
+  color: #fff;
+}
+
+#base {
+  width: 600px;
+  height: 600px;
+
+  background-color: #005500;
+}
+
+#esquerda {
+  width: 300px;
+  height: 300px;
+
+  background-color: #aa0000;
+
+  float: left;
+}
+
+#direita {
+  width: 300px;
+  height: 300px;
+
+  background-color: #0000aa;
+
+  float: right;
+}

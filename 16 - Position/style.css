@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+
+  color: #fff;
+}
+
+#conteudo {
+  width: 600px;
+  height: 1200px;
+
+  background-color: #f00;
+
+  /*Tira a referência da página e atribui a este elemento.*/
+  position: relative;
+}
+
+#texto {
+  width: 500px;
+  background-color: #0f0;
+  font-size: 1.2em;
+
+  /*Usa um referencial: a página ou um "position: relative".*/
+  position: absolute;
+
+  top: 160px;
+  left: 32px;
+}

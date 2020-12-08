@@ -1,0 +1,35 @@
+body {
+  /*Adiciona imagem.*/
+  background-image: url('assets/img.png');
+
+  /*Repetição de imagem*/
+
+  /*Repete imagem apenas na horizontal.*/
+  background-repeat: repeat-x;
+  /*Repete imagem apenas na vertical.*/
+  background-repeat: repeat-y;
+  /*Não repete.*/
+  background-repeat: no-repeat;
+
+  /*Coordenadas para posicionamento do background.*/
+  background-position: 300px 500px;
+
+  /*Coordenadas predefinidas.*/
+  background-position: left;
+  background-position: center;
+  background-position: right;
+
+  background-position: right bottom;
+  background-position: left top;
+
+  /*Fixar background*/
+  /*Valor padrão é scroll.*/
+  background-attachment: fixed;
+
+  /*Definindo o tamanho.*/
+  background-size: 300px 500px;
+  background-size: 100% 100%;
+
+  /*Propriedade estenografica*/
+  background: url('assets/img.png') center center/100% 100% no-repeat fixed;
+}

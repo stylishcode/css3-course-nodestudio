@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+#conteudo {
+  width: 300px;
+
+  padding: 20px;
+
+  background-color: #f00;
+  color: #fff;
+
+  box-shadow: 10px 10px 5px #0f0;
+}

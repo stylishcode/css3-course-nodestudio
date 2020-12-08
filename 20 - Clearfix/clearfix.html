@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClearFix</title>
+  <style>
+    .container {
+      background-color: red;
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    .box1 {
+      background-color: green;
+      width: 150px;
+      height: 150px;
+      float: left;
+    }
+
+    .box2 {
+      background-color: blue;
+      width: 150px;
+      height: 150px;
+      float: right;
+    }
+
+    /* Resolução do problema */
+    .container::before,
+    .container::after {
+      content: '';
+      display: table;
+    }
+
+    .container::after {
+      clear: both;
+    }
+
+    /* Fim da resolução */
+  </style>
+</head>
+
+<body>
+  <p>ClearFix é uma técnica usada para reparar problemas causados pelo uso do float. Vale lembrar que você só precisa
+    dessa
+    técnica se for construir layouts com floats, se o layout for flexbox, não é necessário e com frameworks também não,
+    pois nem teriamos acesso aos códigos css, que são abstraidos pelo framework</p>
+
+  <h2>Contextualizando o problema:</h2>
+  <p>- Se quisermos mover a div box2 para direita, usamos o float right, porém isso vai quebrar o layout (div container
+    perde o fundo na mesma linha da box2 e talvez outras coisas) e mesmo que eu mova a div box1 para a esquerda com o
+    float left tentativa de resolver
+    , o problema também acontece.</p>
+
+  <h2>Formas de resolver:</h2>
+  <p>- Adicionando display table na div pai, isso resolveria o problema, mas desenvolvedores relataram problemas com o
+    uso
+    do display table, então não recomendado</p>
+
+  <p>- Adicionar float left na div pai, resolveria o problema, mas só funciona se a div tiver um tamanho fixo ou 100%,
+    então só use com elementos de tamanho fixo, só que, se precisarmos centralizar a div com um margin 0 auto, o float
+    fica inutil, e o problema volta, então não recomendado também</p>
+
+  <p>- Criar uma div class clearfix após o final do layout e na propriedade css aplicar um clear both nessa div, porém
+    era
+    muita
+    poluição ficar criando clear fixes para lá e para cá nos containers para resolver esse problema nos layouts, era
+    usado antigamente.
+  </p>
+
+  <p>Agora com os pseudo elementos, tudo fica mais fácil, resolução no código css</p>
+
+  <div class="container">
+    <div class="box1"></div>
+    <div class="box2"></div>
+  </div>
+</body>
+
+</html>

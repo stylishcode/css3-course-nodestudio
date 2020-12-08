@@ -1,0 +1,38 @@
+#exemplo {
+  /*Border*/
+
+  /*Estilo da borda. dashed, solid, double, groove, ridge, inset, outset e dotted*/
+  border-style: dotted;
+  /*Cor da borda.*/
+  border-color: #FF7F50;
+  /*Tamanho da borda.*/
+  border-width: 5px;
+
+  /*Definindo três propriedades da borda (estilo, tamanho e cor).*/
+  border: outset 5px #DB7093;
+
+  /*Definindo apenas uma borda.*/
+
+  /*Definindo apenas a borda superior*/
+  border-top: double 5px #BA55D3;
+  /*Definindo apenas a borda direita*/
+  border-right: dotted 5px #DB7093;
+  /*Definindo apenas a borda inferior*/
+  border-bottom: dashed 5px #DB7093;
+  /*Definindo apenas a borda esquerda*/
+  border-left: solid 5px #4B0082;
+
+  /*Outline (borda externa (borda da borda))*/
+
+  /*Estilo do outline*/
+  outline-style: ridge;
+
+  /*Tamanho.*/
+  outline-width: 5px;
+
+  /*Definindo três propriedades (estilo, tamanho e cor).*/
+  outline: dotted 5px #FF0000;
+
+  /*Distancia entre o border e o outline.*/
+  outline-offset: 15px;
+}

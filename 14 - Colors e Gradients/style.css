@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+#cores {
+  width: 300px;
+  height: 150px;
+  /* background-color: #00f; */
+  /* background-color: rgb(255, 158, 98); */
+  /* background-color: hsl(50, 100%, 30%); hUE, sATURATION, lIGHTNESS */
+  /* background-color: hsla(50, 150%, 40%, 0.5); aLPHA*/
+  background-color: rgba(56, 245, 67, 0.5);
+}
+
+#gradients {
+  margin-top: 10px;
+  width: 400px;
+  height: 150px;
+  background: linear-gradient(to top left, red, blue);
+}
