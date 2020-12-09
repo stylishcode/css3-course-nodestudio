@@ -1,0 +1,26 @@
+img {
+  margin: 40px 0 0 60px;
+  /* desfoque na imagem */
+  filter: blur(4px);
+  /* brilho da imagem (100% é o padrão) */
+  filter: brightness(20%);
+  /* contraste da imagem */
+  filter: contrast(150%);
+  /* tons de cinza na imagem */
+  filter: grayscale(50%);
+  /* inverte as cores da imagem */
+  filter: invert(0%);
+  /* opacidade: quanto mais, mais transparente fica */
+  filter: opacity(50%);
+  /* aplica saturação (padrão é 100) */
+  filter: saturate(180%);
+  /* aplica sepia, quanto mais %, mais aumenta a sepia*/
+  filter: sepia(80%);
+  /* muda as cores de acordo com o ângulo passado */
+  filter: hue-rotate(50deg);
+  /* aplica sombra sob a imagem, primeiro parametro é o offset horizontal, depois o offset vertical, depois o desfoque e por ultimo a cor */
+  filter: drop-shadow(10px 20px 5px #000);
+
+  /* estenográfica */
+  filter: drop-shadow(10px 20px 5px #000) contrast(150%);
+}
